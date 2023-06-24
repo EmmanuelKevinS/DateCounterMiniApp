@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  /* border: 2px solid black; */
+  background-color: blue;
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.backgroundDiv {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 50px;
+  padding-top: 50px;
+}
